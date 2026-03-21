@@ -4,6 +4,7 @@ This website is intentionally kept as a **simple static holding page**.
 
 It is built using **plain HTML + CSS + Bootstrap**, with **no build system, no framework, and no backend**.  
 This is deliberate: future student organisers should be able to understand and update the site quickly with minimal technical overhead.
+The only reason I even bothered using Bootstrap is to get a simple image carousel. Otherwise I would have used plain HTML/CSS.
 
 ---
 
@@ -97,6 +98,29 @@ Do **not** edit the main repository directly.
 
 ---
 
+## Editing Structure (Important)
+
+The website is intentionally structured using HTML `<section>...</section>` blocks. Each section represents a self-contained part of the page (e.g. hero, about, schedule, sponsors).
+
+**All edits should be done one section at a time. Do not attempt to modify multiple sections in a single change.**
+
+This keeps the codebase simple, avoids merge conflicts, and reduces the risk of accidentally breaking unrelated parts of the page.
+
+
+### Using LLMs (ChatGPT, etc.)
+
+It's helpful to paste the entire `index.html` into your preferred LLM for context if needed. However:
+
+- **Only ask it to generate or modify one `<section>` at a time**
+- Do not accept large full-file rewrites
+- Review changes carefully before committing
+- Replace only that section in `index.html`  
+- Commit and test
+
+This ensures changes remain controlled, readable, and easy to review.
+
+---
+
 ## Approval Process
 
 All changes must be approved before merging.
@@ -105,7 +129,7 @@ If you are unsure or something is blocked contact:
 
 Harvey Williams  
 hw562@cantab.ac.uk  
-[](www.harveywilliams.com)
+[harveywilliams.com](https://www.harveywilliams.com)
 
 I've set the domain to autorenew at approx £15 - pls reimburse me in 2027 🙏
 
