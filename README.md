@@ -65,14 +65,9 @@ GitHub repositories perform poorly with large binary files, and this will:
 
 ## If large images are accidentally added
 
-### Case 1 — Not yet merged / recent commit
+### Case 1 — Not yet commited
 
-Remove and recommit:
-
-```bash
-git rm path/to/large-image.jpg
-git commit -m "Remove oversized image"
-git push
+This is fine - just delete the file
 
 
 ### Case 2 — Already in repository history (more serious)
