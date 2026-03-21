@@ -101,10 +101,13 @@ Do **not** edit the main repository directly.
 
 All changes must be approved before merging.
 
-If you are unsure or something is blocked:
+If you are unsure or something is blocked contact:
 
 Harvey Williams  
 hw562@cantab.ac.uk  
+[](www.harveywilliams.com)
+
+I've set the domain to autorenew at approx £15 - pls reimburse me in 2027 🙏
 
 ---
 
