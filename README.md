@@ -59,6 +59,11 @@ This keeps the site maintainable and avoids unnecessary complexity.
  - 30 photos times 500kB times 800 visits is approx 1.2GB ie well under the limit
  - I set the carousel images to loading = "lazy" so actually they won't even load unless user browses them
    - This keeps the home page loading fast with low data usage
+ - Aim to keep home page load around 1MB
+   - You can check this using Google Chrome Right-Click -> Inspect -> Network -> Disable Cache
+   - Then view the total data transferred at the bottom of the table 
+ - Likewise make sure Inspect -> Performance -> Largest Contentful Paint is under 2.3 seconds
+   - This helps with SEO
  - Consider making a sepearate gallery page with images around 300kB each 
    - But don't upload too many images - stay under GitHub bandwidth limits
  - Only include a curated selection, not everything!
