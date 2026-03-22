@@ -105,6 +105,8 @@ Do **not** edit the main repository directly.
 
 ## Editing Structure (Important)
 
+Personally, I made/updated the site with Visual Studio Code. 
+
 The website is intentionally structured using HTML `<section>...</section>` blocks. Each section represents a self-contained part of the page (e.g. hero, about, schedule, sponsors).
 
 **All edits should be done one section at a time. Do not attempt to modify multiple sections in a single change.**
