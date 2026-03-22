@@ -57,10 +57,11 @@ This keeps the site maintainable and avoids unnecessary complexity.
  - Use a compression tool (eg Darktable or online tool) and aim for 500kB images (ie web quality)
  - This is because GitHub pages has a soft bandwidth limit of 100GB monthly
  - 30 photos times 500kB times 800 visits is approx 1.2GB ie well under the limit
-   - The way the carousel is implemented (all photos explicitly in index.html) means that all images are loaded straight away. So keep size and quantity in the homepage carousel small! Othwerwise home page will be slow to load.
-   - For MIMUC 2027, it might be worth moving the images off the home page into a gallery page (but don't upload too many images) to decrease home page data use.
-   - Gallery page images should be more like 300kB each if there are a lot
-- Only include a curated selection, not everything!
+ - I set the carousel images to loading = "lazy" so actually they won't even load unless user browses them
+   - This keeps the home page loading fast with low data usage
+ - Consider making a sepearate gallery page with images around 300kB each 
+   - But don't upload too many images - stay under GitHub bandwidth limits
+ - Only include a curated selection, not everything!
 
 ---
 
