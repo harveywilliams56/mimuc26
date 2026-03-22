@@ -1,3 +1,8 @@
+# MIMUC 2027
+
+I already had a chat with Roman Galperin and he seemed keen to takeover the website for 2027
+
+
 # MIMUC Website
 
 This website is intentionally kept as a **simple static holding page**.
