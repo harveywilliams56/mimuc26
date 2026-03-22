@@ -91,10 +91,12 @@ Do **not** edit the main repository directly.
    git checkout -b your-feature-name
 3. Make your changes  
 4. Commit and push:
-   git add .
-   git commit -m "Describe your changes"
-   git push origin your-feature-name
+  - git add path/to/modified/file
+  - git commit -m "Describe your changes"
+  - git push origin your-feature-name
 5. Open a Pull Request to the main MIMUC repository  
+
+Do **not** do "git add ." - it's a recipe for bad things to happen.
 
 ---
 
