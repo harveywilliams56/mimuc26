@@ -215,7 +215,8 @@
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
 
-        <!-- Use the "active" class label to pick which photo is the first one-->
+        <!-- Use the "active" class label to pick which photo is the first one and set loading="eager"-->
+        <!-- For all other images in the carousel, set loading="lazy" so that hidden images don't slow down page loading and increase data consumption -->
 
         <div class="carousel-item active">
           <img src="photos/welcome.jpg" class="d-block w-100", loading="eager">
